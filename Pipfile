@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+vega-datasets = "*"
+altair = "*"
+streamlit = "==1.5.0"
+pandas = "*"
+click = "==8"
+st-aggrid = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
